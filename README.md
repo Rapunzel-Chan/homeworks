@@ -7,7 +7,7 @@
 1. Клонируйте репозиторий:
 
 ```
-clone -b develop https://github.com/Rapunzel-Chan/homeworks.git
+git clone -b develop https://github.com/Rapunzel-Chan/homeworks.git
 ```
 
 2. Установите зависимости:
