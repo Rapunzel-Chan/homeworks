@@ -1,16 +1,18 @@
-[project]
+[tool.poetry]
 name = "pythonproject5"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "RapunzelChan",email = "rapuncel.chan24@gmail.com"}
-]
+description = "Программа для домашки"
+authors = ["RapunzelChan <rapuncel.chan24@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = [
-]
+packages = [{ include = "gruyere_scapy_hw" }]
 
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+scapy = ">=2.7.0,<3.0.0"
+pandas = "^3.0.0"
+matplotlib = "^3.10.8"
+seaborn = "^0.13.2"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
