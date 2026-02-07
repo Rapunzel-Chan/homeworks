@@ -139,15 +139,23 @@ files = [
 name = "idna"
 version = "3.11"
 description = "Internationalized Domain Names in Applications (IDNA)"
+name = "scapy"
+version = "2.7.0"
+description = "Scapy: interactive packet manipulation tool"
 optional = false
-python-versions = ">=3.8"
+python-versions = "<4,>=3.7"
 groups = ["main"]
 files = [
     {file = "idna-3.11-py3-none-any.whl", hash = "sha256:771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea"},
     {file = "idna-3.11.tar.gz", hash = "sha256:795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"},
+    {file = "scapy-2.7.0-py3-none-any.whl", hash = "sha256:eb22786da92be6fd8e5c694ae5595e4f5b9ac1f4364c9c45986844f3e3063561"},
+    {file = "scapy-2.7.0.tar.gz", hash = "sha256:bfc1ef1b93280aea1ddee53be7f74232aa28ac3d891244d41ee85200d24aa446"},
 ]
 
 [package.extras]
+all = ["cryptography (>=2.0)", "ipython", "matplotlib", "pyx"]
+cli = ["ipython"]
+doc = ["cryptography (>=2.0)", "sphinx (>=7.0.0)", "sphinx_rtd_theme (>=1.3.0)", "tox (>=3.0.0)"]
 all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2)"]
 
 [[package]]
@@ -207,5 +215,5 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.14"
-content-hash = "236cdd93ef018aa7b553fa5e6f498d67dac0cdc975031f09d1dce6598ecc157f"
+python-versions = ">=3.10,<4.0"
+content-hash = "1a4b6f8fe1630563eacbfa6f374e357f67f65173e747a735398126b5b1bccb30"
