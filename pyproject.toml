@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Программа для домашки"
 authors = ["RapunzelChan <rapuncel.chan24@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "gruyere_scapy_hw" }]
+requires-python = ">=3.14"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"
