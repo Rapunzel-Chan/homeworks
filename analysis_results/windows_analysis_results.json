@@ -1,0 +1,18 @@
+{
+  "analysis_timestamp": "2026-02-21T13:17:35.694984",
+  "total_events": 38,
+  "suspicious_events": [],
+  "threat_indicators": {},
+  "statistics": {
+    "unique_hosts": 34,
+    "unique_users": 32,
+    "event_codes": [
+      4688.0,
+      4689.0,
+      4624.0,
+      4703.0,
+      4656.0,
+      NaN
+    ]
+  }
+}
