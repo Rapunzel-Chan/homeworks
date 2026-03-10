@@ -1,0 +1,2173 @@
+{
+    "generated": "2026-03-10T12:51:21.184911",
+    "total_threats": 229,
+    "threats_by_source": {
+        "VirusTotal": 58,
+        "DNS Logs": 7,
+        "Suricata IDS": 100,
+        "Windows Events": 35,
+        "Vulners API": 29
+    },
+    "threats_by_severity": {
+        "HIGH": 108,
+        "MEDIUM": 121
+    },
+    "threats_by_type": {
+        "file_scan_summary": 1,
+        "antivirus_detection": 57,
+        "suspicious_domain": 7,
+        "command_and_control": 23,
+        "exploit_attempt": 44,
+        "network_scan": 22,
+        "compromise_indicator": 11,
+        "windows_security": 35,
+        "vulnerability": 29
+    },
+    "threats": [
+        {
+            "source": "VirusTotal",
+            "type": "file_scan_summary",
+            "indicator": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "severity": "HIGH",
+            "total_malicious": 57,
+            "total_suspicious": 0,
+            "total_detects": 57
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Bkav",
+            "indicator": "Bkav: W32.EicarTest.Trojan",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "W32.EicarTest.Trojan",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033131"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Lionic",
+            "indicator": "Lionic: Test.File.EICAR.y",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Test.File.EICAR.y",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033158"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Elastic",
+            "indicator": "Elastic: eicar",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "eicar",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033169"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "MicroWorld-eScan",
+            "indicator": "MicroWorld-eScan: EICAR-Test-File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033179"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "ClamAV",
+            "indicator": "ClamAV: Eicar-Test-Signature",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Eicar-Test-Signature",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033189"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "CMC",
+            "indicator": "CMC: Eicar.test.file",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Eicar.test.file",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033198"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "CAT-QuickHeal",
+            "indicator": "CAT-QuickHeal: EICAR.TestFile",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR.TestFile",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033207"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Skyhigh",
+            "indicator": "Skyhigh: EICAR test file",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR test file",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033216"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Malwarebytes",
+            "indicator": "Malwarebytes: EICAR-AV-Test",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-AV-Test",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033230"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Zillya",
+            "indicator": "Zillya: EICAR.TestFile",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR.TestFile",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033240"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Sangfor",
+            "indicator": "Sangfor: EICAR-Test-File (not a virus)",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File (not a virus)",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033249"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "K7AntiVirus",
+            "indicator": "K7AntiVirus: EICAR_Test_File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR_Test_File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033258"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "K7GW",
+            "indicator": "K7GW: EICAR_Test_File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR_Test_File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033267"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "huorong",
+            "indicator": "huorong: TEST/AVEngTestFile!EICAR",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "TEST/AVEngTestFile!EICAR",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033276"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Baidu",
+            "indicator": "Baidu: Win32.Test.Eicar.a",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Win32.Test.Eicar.a",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033285"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "VirIT",
+            "indicator": "VirIT: EICAR-Test-File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033294"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "SymantecMobileInsight",
+            "indicator": "SymantecMobileInsight: ALG:EICAR Test String",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "ALG:EICAR Test String",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033302"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Symantec",
+            "indicator": "Symantec: EICAR Test String",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR Test String",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033311"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Zoner",
+            "indicator": "Zoner: EICAR.Test.File-NoVirus.250",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR.Test.File-NoVirus.250",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033320"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "TrendMicro-HouseCall",
+            "indicator": "TrendMicro-HouseCall: Eicar_test_file",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Eicar_test_file",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033329"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Cynet",
+            "indicator": "Cynet: Malicious (score: 99)",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Malicious (score: 99)",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033337"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Alibaba",
+            "indicator": "Alibaba: Virus:Win32/EICAR.A",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Virus:Win32/EICAR.A",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033346"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "NANO-Antivirus",
+            "indicator": "NANO-Antivirus: Marker.Dos.EICAR-Test-File.dyb",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Marker.Dos.EICAR-Test-File.dyb",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033360"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "ViRobot",
+            "indicator": "ViRobot: EICAR-test",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-test",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033369"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Rising",
+            "indicator": "Rising: Virus.EICARTestFile!1.103DB (CLASSIC)",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Virus.EICARTestFile!1.103DB (CLASSIC)",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033382"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "F-Secure",
+            "indicator": "F-Secure: EICAR_Test_File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR_Test_File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033391"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "VIPRE",
+            "indicator": "VIPRE: EICAR-Test-File (not a virus)",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File (not a virus)",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033401"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "TrendMicro",
+            "indicator": "TrendMicro: Eicar_test_file",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Eicar_test_file",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033413"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "McAfeeD",
+            "indicator": "McAfeeD: WPS!EICAR",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "WPS!EICAR",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033423"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Sophos",
+            "indicator": "Sophos: EICAR-AV-Test",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-AV-Test",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033431"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Ikarus",
+            "indicator": "Ikarus: EICAR-Test-File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033440"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Avast-Mobile",
+            "indicator": "Avast-Mobile: Eicar",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Eicar",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033449"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Jiangmin",
+            "indicator": "Jiangmin: EICAR-Test-File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033458"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Webroot",
+            "indicator": "Webroot: W32.Eicar.Testvirus.Gen",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "W32.Eicar.Testvirus.Gen",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033467"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Varist",
+            "indicator": "Varist: EICAR_Test_File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR_Test_File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033475"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Avira",
+            "indicator": "Avira: Eicar-Test-Signature",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Eicar-Test-Signature",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033484"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Antiy-AVL",
+            "indicator": "Antiy-AVL: TestFile/Win32.EICAR",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "TestFile/Win32.EICAR",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033493"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Kingsoft",
+            "indicator": "Kingsoft: Test.eicar.aa",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Test.eicar.aa",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033511"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Gridinsoft",
+            "indicator": "Gridinsoft: Trojan.U.EICAR_Test_File.dd",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Trojan.U.EICAR_Test_File.dd",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033524"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Xcitium",
+            "indicator": "Xcitium: Malware@#2975xfk8s2pq1",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Malware@#2975xfk8s2pq1",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033533"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Microsoft",
+            "indicator": "Microsoft: Virus:DOS/EICAR_Test_File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Virus:DOS/EICAR_Test_File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033543"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "SUPERAntiSpyware",
+            "indicator": "SUPERAntiSpyware: NotAThreat.EICAR[TestFile]",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "NotAThreat.EICAR[TestFile]",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033551"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "ZoneAlarm",
+            "indicator": "ZoneAlarm: EICAR-AV-Test",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-AV-Test",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033560"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "GData",
+            "indicator": "GData: EICAR_TEST_FILE",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR_TEST_FILE",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033569"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Google",
+            "indicator": "Google: Detected",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Detected",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033577"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "AhnLab-V3",
+            "indicator": "AhnLab-V3: Virus/EICAR_Test_File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Virus/EICAR_Test_File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033586"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "VBA32",
+            "indicator": "VBA32: EICAR-Test-File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033595"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "TACHYON",
+            "indicator": "TACHYON: EICAR-Test-File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-Test-File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033608"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "APEX",
+            "indicator": "APEX: EICAR Anti-Virus Test File",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR Anti-Virus Test File",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033617"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Tencent",
+            "indicator": "Tencent: EICAR.TEST.NOT-A-VIRUS",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR.TEST.NOT-A-VIRUS",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033626"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Yandex",
+            "indicator": "Yandex: EICAR_test_file",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR_test_file",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033634"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "TrellixENS",
+            "indicator": "TrellixENS: EICAR test file",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR test file",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033643"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "SentinelOne",
+            "indicator": "SentinelOne: Static AI - Malicious COM",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Static AI - Malicious COM",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033656"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "MaxSecure",
+            "indicator": "MaxSecure: VIRUS.EICAR.TEST",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "VIRUS.EICAR.TEST",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033665"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Fortinet",
+            "indicator": "Fortinet: EICAR_TEST_FILE",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR_TEST_FILE",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033678"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "Panda",
+            "indicator": "Panda: EICAR-AV-TEST-FILE",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "EICAR-AV-TEST-FILE",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033687"
+        },
+        {
+            "source": "VirusTotal",
+            "type": "antivirus_detection",
+            "vendor": "alibabacloud",
+            "indicator": "alibabacloud: Engtest:Multi/Eicar",
+            "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+            "file_name": "eicar.com-28926",
+            "category": "malicious",
+            "result": "Engtest:Multi/Eicar",
+            "severity": "HIGH",
+            "timestamp": "2026-03-10T12:47:21.033696"
+        },
+        {
+            "source": "DNS Logs",
+            "type": "suspicious_domain",
+            "indicator": "kjasdfkjhwef.com",
+            "client_ip": "192.168.1.20",
+            "response_code": "NXDOMAIN",
+            "timestamp": "2023-10-27T10:01:00Z",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "DNS Logs",
+            "type": "suspicious_domain",
+            "indicator": "oqwhefuiqw.com",
+            "client_ip": "192.168.1.20",
+            "response_code": "NXDOMAIN",
+            "timestamp": "2023-10-27T10:02:00Z",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "DNS Logs",
+            "type": "suspicious_domain",
+            "indicator": "zxcvbnmlkjh.com",
+            "client_ip": "192.168.1.20",
+            "response_code": "NXDOMAIN",
+            "timestamp": "2023-10-27T10:03:00Z",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "DNS Logs",
+            "type": "suspicious_domain",
+            "indicator": "c2.evil-domain.tk",
+            "client_ip": "192.168.1.99",
+            "response_code": "NOERROR",
+            "timestamp": "2023-10-27T10:00:10Z",
+            "severity": "HIGH"
+        },
+        {
+            "source": "DNS Logs",
+            "type": "suspicious_domain",
+            "indicator": "c2.evil-domain.tk",
+            "client_ip": "192.168.1.99",
+            "response_code": "NOERROR",
+            "timestamp": "2023-10-27T10:05:10Z",
+            "severity": "HIGH"
+        },
+        {
+            "source": "DNS Logs",
+            "type": "suspicious_domain",
+            "indicator": "c2.evil-domain.tk",
+            "client_ip": "192.168.1.99",
+            "response_code": "NOERROR",
+            "timestamp": "2023-10-27T10:10:10Z",
+            "severity": "HIGH"
+        },
+        {
+            "source": "DNS Logs",
+            "type": "suspicious_domain",
+            "indicator": "c2.evil-domain.tk",
+            "client_ip": "192.168.1.99",
+            "response_code": "NOERROR",
+            "timestamp": "2023-10-27T10:15:10Z",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-21T08:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-21T09:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-21T10:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-21T11:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-21T12:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-21T13:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-21T14:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-21T15:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-21T16:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-21T17:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-21T18:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-21T19:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-21T20:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-21T21:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-21T22:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-21T23:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-22T00:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-22T01:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-22T02:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-22T03:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-22T04:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-22T05:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-22T06:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-22T07:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-22T08:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-22T09:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-22T10:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-22T11:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-22T12:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-22T13:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-22T14:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-22T15:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-22T16:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-22T17:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-22T18:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-22T19:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-22T20:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-22T21:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-22T22:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-22T23:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-23T00:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-23T01:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-23T02:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-23T03:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-23T04:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-23T05:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-23T06:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-23T07:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-23T08:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-23T09:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-23T10:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-23T11:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-23T12:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-23T13:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-23T14:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-23T15:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-23T16:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-23T17:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-23T18:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-23T19:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-23T20:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-23T21:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-23T22:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-23T23:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-24T00:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-24T01:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-24T02:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-24T03:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-24T04:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-24T05:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-24T06:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-24T07:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-24T08:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-24T09:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-24T10:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-24T11:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-24T12:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-24T13:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-24T14:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-24T15:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-24T16:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-24T17:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-24T18:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-24T19:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-24T20:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-24T21:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-24T22:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-24T23:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-25T00:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-25T01:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-25T02:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Remote Windows Win32k elevation of privilege attempt",
+            "timestamp": "2023-08-25T03:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Java JRE to Oracle WebLogic RCE",
+            "timestamp": "2023-08-25T04:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS DCERPC NCACN-IP-TCP interfaces BO",
+            "timestamp": "2023-08-25T05:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC User-Agent known malicious connecting IP",
+            "timestamp": "2023-08-25T06:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "compromise_indicator",
+            "indicator": "INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306",
+            "timestamp": "2023-08-25T07:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Multiple IIS 6.0 attempt",
+            "timestamp": "2023-08-25T08:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "exploit_attempt",
+            "indicator": "EXPLOIT Oracle 9i TNS Listener BO",
+            "timestamp": "2023-08-25T09:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "network_scan",
+            "indicator": "NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO",
+            "timestamp": "2023-08-25T10:00:00",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Suricata IDS",
+            "type": "command_and_control",
+            "indicator": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection",
+            "timestamp": "2023-08-25T11:00:00",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we3436srv.waynecorpinc.local",
+            "user": "we3436srv$",
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we1159srv.waynecorpinc.local",
+            "user": "we1159srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4624: Successful Logon",
+            "host": "we9028srv.waynecorpinc.local",
+            "user": [
+                "-",
+                "we9028srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we5878srv.waynecorpinc.local",
+            "user": [
+                "we5878srv$",
+                "we5878srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we3997srv.waynecorpinc.local",
+            "user": [
+                "we3997srv$",
+                "we3997srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we9269srv.waynecorpinc.local",
+            "user": [
+                "we9269srv$",
+                "we9269srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we7127srv.waynecorpinc.local",
+            "user": "we7127srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we5689srv.waynecorpinc.local",
+            "user": [
+                "we5689srv$",
+                "-"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we1662srv.waynecorpinc.local",
+            "user": [
+                "we1662srv$",
+                "we1662srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we3652srv.waynecorpinc.local",
+            "user": "we3652srv$",
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we5156srv.waynecorpinc.local",
+            "user": "we5156srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we7006srv.waynecorpinc.local",
+            "user": "we7006srv$",
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we8229srv.waynecorpinc.local",
+            "user": [
+                "we8229srv$",
+                "-"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we8592srv.waynecorpinc.local",
+            "user": [
+                "we8592srv$",
+                "-"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we6406srv.waynecorpinc.local",
+            "user": "we6406srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we9390srv.waynecorpinc.local",
+            "user": [
+                "we9390srv$",
+                "we9390srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we9054srv.waynecorpinc.local",
+            "user": "we9054srv$",
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we9390srv.waynecorpinc.local",
+            "user": [
+                "we9390srv$",
+                "we9390srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4624: Successful Logon",
+            "host": "we4664srv.waynecorpinc.local",
+            "user": [
+                "-",
+                "we4664srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we2419srv.waynecorpinc.local",
+            "user": "we2419srv$",
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we6908srv.waynecorpinc.local",
+            "user": "we6908srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we2813srv.waynecorpinc.local",
+            "user": "we2813srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we8018srv.waynecorpinc.local",
+            "user": [
+                "we8018srv$",
+                "we8018srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we7075srv.waynecorpinc.local",
+            "user": [
+                "we7075srv$",
+                "we7075srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4656: Object Access",
+            "host": "we8460srv.waynecorpinc.local",
+            "user": "Lara.Culbreth",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we4837srv.waynecorpinc.local",
+            "user": [
+                "we4837srv$",
+                "we4837srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we4404srv.waynecorpinc.local",
+            "user": "we4404srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we8153srv.waynecorpinc.local",
+            "user": "we8153srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we6867srv.waynecorpinc.local",
+            "user": "we6867srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4689: Process Exit",
+            "host": "we5364srv.waynecorpinc.local",
+            "user": "we5364srv$",
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we1159srv.waynecorpinc.local",
+            "user": [
+                "we1159srv$",
+                "we1159srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4688: Process Creation",
+            "host": "we3134srv.waynecorpinc.local",
+            "user": "we3134srv$",
+            "timestamp": "2016-august-28",
+            "severity": "HIGH"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we8670srv.waynecorpinc.local",
+            "user": [
+                "we8670srv$",
+                "we8670srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4703: Token Right Adjusted",
+            "host": "we7887srv.waynecorpinc.local",
+            "user": [
+                "we7887srv$",
+                "we7887srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Windows Events",
+            "type": "windows_security",
+            "indicator": "Event 4624: Successful Logon",
+            "host": "we8382srv.waynecorpinc.local",
+            "user": [
+                "-",
+                "we8382srv$"
+            ],
+            "timestamp": "2016-august-28",
+            "severity": "MEDIUM"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "SNYK:CONAN-OPENSSL-15123718",
+            "software": "openssl",
+            "cvss_score": 9.8,
+            "title": "Stack-based Buffer Overflow",
+            "published": "2026-01-27T16:49:21",
+            "severity": "HIGH",
+            "description": "## Overview\n\nAffected versions of this package are vulnerable to Stack-based Buffer Overflow when parsing a CMS `AuthEnvelopedData` message. An attacker can trigger a crash by supplying AEAD ciphers s"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "SNYK:CONAN-OPENSSL-15123587",
+            "software": "openssl",
+            "cvss_score": 7.5,
+            "title": "Stack-based Buffer Overflow",
+            "published": "2026-01-27T16:49:31",
+            "severity": "MEDIUM",
+            "description": "## Overview\n\nAffected versions of this package are vulnerable to Stack-based Buffer Overflow or null pointer dereference in `pkcs12/p12_mutl.c‎`. If a user can be convinced to process a malicious PKCS"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "SNYK:CONAN-OPENSSL-15124519",
+            "software": "openssl",
+            "cvss_score": 8.1,
+            "title": "Out-of-bounds Write",
+            "published": "2026-01-27T16:49:19",
+            "severity": "MEDIUM",
+            "description": "## Overview\n\nAffected versions of this package are vulnerable to Out-of-bounds Write in the `OPENSSL_uni2utf8()` function. If a user can be convinced to process a malicious PKCS#12 file, the attacker "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "SNYK:RUBY-OPENSSL-6036190",
+            "software": "openssl",
+            "cvss_score": 7.5,
+            "title": "Missing Cryptographic Step",
+            "published": "2023-10-24T15:00:00",
+            "severity": "MEDIUM",
+            "description": "## Overview\n[openssl](https://rubygems.org/gems/openssl) is a package that wraps the OpenSSL library.\n\nAffected versions of this package are vulnerable to Missing Cryptographic Step when the `EVP_Encr"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "NMAP:HTTP-APACHE-NEGOTIATION.NSE",
+            "software": "apache",
+            "cvss_score": 10.0,
+            "title": "http-apache-negotiation NSE Script",
+            "published": "2011-12-08T20:50:12",
+            "severity": "HIGH",
+            "description": "Checks if the target http server has mod_negotiation enabled. This feature can be leveraged to find hidden resources and spider a web site using fewer requests. \n\nThe script works by sending requests "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-APACHE-2025-58098",
+            "software": "apache",
+            "cvss_score": 8.3,
+            "title": "BIT-APACHE-2025-58098 Apache HTTP Server: Server Side Includes adds query string to #exec cmd=...",
+            "published": "2025-12-09T11:38:15",
+            "severity": "MEDIUM",
+            "description": "Apache HTTP Server 2.4.65 and earlier with Server Side Includes (SSI) enabled and mod_cgid (but not mod_cgi) passes the shell-escaped query string to #exec cmd=\"...\" directives.\n\nThis issue affects Ap"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-APACHE-2025-49630",
+            "software": "apache",
+            "cvss_score": 7.5,
+            "title": "BIT-APACHE-2025-49630 Apache HTTP Server: mod_proxy_http2 denial of service",
+            "published": "2025-07-16T07:56:28",
+            "severity": "MEDIUM",
+            "description": "In certain proxy configurations, a denial of service attack against Apache HTTP Server versions 2.4.26 through to 2.4.63 can be triggered by untrusted clients causing an assertion in mod_proxy_http2.\n"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-APACHE-2024-40898",
+            "software": "apache",
+            "cvss_score": 9.1,
+            "title": "BIT-APACHE-2024-40898 Apache HTTP Server: SSRF with mod_rewrite in server/vhost context on Windows",
+            "published": "2024-07-23T07:16:32",
+            "severity": "HIGH",
+            "description": "SSRF in Apache HTTP Server on Windows with mod_rewrite in server/vhost context, allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests.\n\nUsers are recommended to "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-APACHE-2024-38472",
+            "software": "apache",
+            "cvss_score": 7.5,
+            "title": "BIT-APACHE-2024-38472",
+            "published": "2024-07-03T07:17:47",
+            "severity": "MEDIUM",
+            "description": "SSRF in Apache HTTP Server on Windows allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests or content Users are recommended to upgrade to version 2.4.60 which f"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-APACHE-2024-38473",
+            "software": "apache",
+            "cvss_score": 8.1,
+            "title": "BIT-APACHE-2024-38473 Apache HTTP Server proxy encoding problem",
+            "published": "2024-07-03T07:17:33",
+            "severity": "MEDIUM",
+            "description": "Encoding problem in mod_proxy in Apache HTTP Server 2.4.59 and earlier allows request URLs with incorrect encoding to be sent to backend services, potentially bypassing authentication via crafted requ"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-APACHE-2024-38476",
+            "software": "apache",
+            "cvss_score": 9.8,
+            "title": "BIT-APACHE-2024-38476 Apache HTTP Server may use exploitable/malicious backend application output to",
+            "published": "2024-07-03T07:16:44",
+            "severity": "HIGH",
+            "description": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclosure, SSRF or local script execution via backend applications whose response headers are malicious or"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "NGINX",
+            "software": "nginx",
+            "cvss_score": 7.5,
+            "title": "Immunity Canvas: NGINX",
+            "published": "2009-09-15T22:30:00",
+            "severity": "MEDIUM",
+            "description": "**Name**|  nginx  \n---|---  \n**CVE**|  CVE-2009-2629  \n**Exploit Pack**|  [CANVAS](<http://http://www.immunityinc.com/products-canvas.shtml>)  \n**Description**| Jinx  \n**Notes**| CVE Name: CVE-2009-26"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-NGINX-2021-23017",
+            "software": "nginx",
+            "cvss_score": 7.7,
+            "title": "BIT-NGINX-2021-23017",
+            "published": "2024-03-06T10:59:30",
+            "severity": "MEDIUM",
+            "description": "A security issue in nginx resolver was identified, which might allow an attacker who is able to forge UDP packets from the DNS server to cause 1-byte memory overwrite, resulting in worker process cras"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "NGINX-2021-000300.NASL",
+            "software": "nginx",
+            "cvss_score": 7.7,
+            "title": "nginx 0.6.x < 1.20.1 1-Byte Memory Overwrite RCE",
+            "published": "2021-06-03T00:00:00",
+            "severity": "MEDIUM",
+            "description": "According to its Server response header, the installed version of nginx is 0.6.18 prior to 1.20.1. It is, therefore,\naffected by a remote code execution vulnerability. A security issue in nginx resolv"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "OSV:BIT-NGINX-2024-24990",
+            "software": "nginx",
+            "cvss_score": 7.5,
+            "title": "BIT-NGINX-2024-24990 NGINX HTTP/3 QUIC vulnerability",
+            "published": "2024-06-04T09:50:17",
+            "severity": "MEDIUM",
+            "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed requests can cause NGINX worker processes to terminate.\n\nNote: The HTTP/3 QUIC module is not enabled by default a"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "ALAS-2015-588",
+            "software": "windows",
+            "cvss_score": 9.8,
+            "title": "Medium: golang, docker",
+            "published": "2015-08-24T00:00:00",
+            "severity": "HIGH",
+            "description": "**Issue Overview:**  \n\n\nAs discussed upstream -- http://seclists.org/oss-sec/2015/q3/294 and http://seclists.org/oss-sec/2015/q3/237 -- the Go project received notification of an HTTP request smugglin"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "PRION:CVE-2008-4037",
+            "software": "windows",
+            "cvss_score": 9.3,
+            "title": "Design/Logic Flaw",
+            "published": "2008-11-12T23:30:00",
+            "severity": "HIGH",
+            "description": "Microsoft Windows 2000 Gold through SP4, XP Gold through SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, and Server 2008 allows remote SMB servers to execute arbitrary code on a client machine by re"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "MSF:EXPLOIT-LINUX-HTTP-OLLAMA_RCE_CVE_2024_37032-",
+            "software": "linux",
+            "cvss_score": 8.8,
+            "title": "Ollama Model Registry Path Traversal RCE",
+            "published": "2026-02-25T19:00:16",
+            "severity": "MEDIUM",
+            "description": "Ollama before 0.1.34 is vulnerable to a path traversal attack via the\n          model pull mechanism (CVE-2024-37032). When pulling a model, the digest\n          field in OCI manifests is not validate"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "MSF:EXPLOIT-LINUX-HTTP-BEYONDTRUST_PRA_RS_COMMAND_INJECTION-",
+            "software": "linux",
+            "cvss_score": 9.9,
+            "title": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) unauthenticated Remote Code Execu",
+            "published": "2026-02-25T19:00:15",
+            "severity": "HIGH",
+            "description": "This exploit achieves unauthenticated remote code execution against BeyondTrust Privileged Remote\n          Access (PRA) and Remote Support (RS). It leverages three different vulnerabilities depending"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "MSF:EXPLOIT-LINUX-HTTP-GRANDSTREAM_GXP1600_UNAUTH_RCE-",
+            "software": "linux",
+            "cvss_score": 9.8,
+            "title": "GrandStream GXP1600 Unauthenticated Remote Code Execution",
+            "published": "2026-02-24T18:57:48",
+            "severity": "HIGH",
+            "description": "An unauthenticated stack-based buffer overflow vulnerability exists in the HTTP API endpoint\n          /cgi-bin/api.values.get. A remote attacker can leverage this vulnerability to achieve unauthentic"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "MSF:EXPLOIT-LINUX-HTTP-MOTIONEYE_AUTH_RCE_CVE_2025_60787-",
+            "software": "linux",
+            "cvss_score": 7.2,
+            "title": "Remote Code Execution Vulnerability in MotionEye Frontend (CVE-2025-60787)",
+            "published": "2025-10-10T18:57:15",
+            "severity": "MEDIUM",
+            "description": "This module exploits a template injection vulnerability in the MotionEye Frontend.\n\n          MotionEye Frontend versions 0.43.1b4 and prior are vulnerable to OS Command Injection in configuration par"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-202101-05",
+            "software": "chrome",
+            "cvss_score": 9.6,
+            "title": "Chromium, Google Chrome: Multiple vulnerabilities",
+            "published": "2021-01-10T00:00:00",
+            "severity": "HIGH",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. \n\nGoogle Chrome is one fast, simple, and secure "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-202012-05",
+            "software": "chrome",
+            "cvss_score": 9.6,
+            "title": "Chromium, Google Chrome: Multiple vulnerabilities",
+            "published": "2020-12-07T00:00:00",
+            "severity": "HIGH",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. \n\nGoogle Chrome is one fast, simple, and secure "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-202006-02",
+            "software": "chrome",
+            "cvss_score": 9.6,
+            "title": "Chromium, Google Chrome: Multiple vulnerabilities",
+            "published": "2020-06-10T00:00:00",
+            "severity": "HIGH",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. \n\nGoogle Chrome is one fast, simple, and secure "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-201804-22",
+            "software": "chrome",
+            "cvss_score": 8.8,
+            "title": "Chromium, Google Chrome: Multiple vulnerabilities",
+            "published": "2018-04-24T00:00:00",
+            "severity": "MEDIUM",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. \n\nGoogle Chrome is one fast, simple, and secure "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-201711-02",
+            "software": "chrome",
+            "cvss_score": 9.8,
+            "title": "Chromium, Google Chrome: Multiple vulnerabilities",
+            "published": "2017-11-10T00:00:00",
+            "severity": "HIGH",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. \n\nGoogle Chrome is one fast, simple, and secure "
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-202402-23",
+            "software": "chrome",
+            "cvss_score": 9.8,
+            "title": "Chromium, Google Chrome, Microsoft Edge: Multiple Vulnerabilities",
+            "published": "2024-02-19T00:00:00",
+            "severity": "HIGH",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. Google Chrome is one fast, simple, and secure br"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-202401-34",
+            "software": "chrome",
+            "cvss_score": 9.6,
+            "title": "Chromium, Google Chrome, Microsoft Edge: Multiple Vulnerabilities",
+            "published": "2024-01-31T00:00:00",
+            "severity": "HIGH",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. Google Chrome is one fast, simple, and secure br"
+        },
+        {
+            "source": "Vulners API",
+            "type": "vulnerability",
+            "indicator": "GLSA-202107-49",
+            "software": "chrome",
+            "cvss_score": 8.8,
+            "title": "Chromium, Google Chrome: Multiple vulnerabilities",
+            "published": "2021-07-22T00:00:00",
+            "severity": "MEDIUM",
+            "description": "### Background\n\nChromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. \n\nGoogle Chrome is one fast, simple, and secure "
+        }
+    ]
+}

@@ -1,0 +1,291 @@
+source,type,indicator,file_name,severity,total_malicious,total_suspicious,total_detects,vendor,file_hash,category,result,timestamp,client_ip,response_code,host,user,software,cvss_score,title,published,description
+VirusTotal,file_scan_summary,44d88612fea8a8f36de82e1278abb02f,eicar.com-28926,HIGH,57.0,0.0,57.0,,,,,,,,,,,,,,
+VirusTotal,antivirus_detection,Bkav: W32.EicarTest.Trojan,eicar.com-28926,HIGH,,,,Bkav,44d88612fea8a8f36de82e1278abb02f,malicious,W32.EicarTest.Trojan,2026-03-10T12:47:21.033131,,,,,,,,,
+VirusTotal,antivirus_detection,Lionic: Test.File.EICAR.y,eicar.com-28926,HIGH,,,,Lionic,44d88612fea8a8f36de82e1278abb02f,malicious,Test.File.EICAR.y,2026-03-10T12:47:21.033158,,,,,,,,,
+VirusTotal,antivirus_detection,Elastic: eicar,eicar.com-28926,HIGH,,,,Elastic,44d88612fea8a8f36de82e1278abb02f,malicious,eicar,2026-03-10T12:47:21.033169,,,,,,,,,
+VirusTotal,antivirus_detection,MicroWorld-eScan: EICAR-Test-File,eicar.com-28926,HIGH,,,,MicroWorld-eScan,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File,2026-03-10T12:47:21.033179,,,,,,,,,
+VirusTotal,antivirus_detection,ClamAV: Eicar-Test-Signature,eicar.com-28926,HIGH,,,,ClamAV,44d88612fea8a8f36de82e1278abb02f,malicious,Eicar-Test-Signature,2026-03-10T12:47:21.033189,,,,,,,,,
+VirusTotal,antivirus_detection,CMC: Eicar.test.file,eicar.com-28926,HIGH,,,,CMC,44d88612fea8a8f36de82e1278abb02f,malicious,Eicar.test.file,2026-03-10T12:47:21.033198,,,,,,,,,
+VirusTotal,antivirus_detection,CAT-QuickHeal: EICAR.TestFile,eicar.com-28926,HIGH,,,,CAT-QuickHeal,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR.TestFile,2026-03-10T12:47:21.033207,,,,,,,,,
+VirusTotal,antivirus_detection,Skyhigh: EICAR test file,eicar.com-28926,HIGH,,,,Skyhigh,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR test file,2026-03-10T12:47:21.033216,,,,,,,,,
+VirusTotal,antivirus_detection,Malwarebytes: EICAR-AV-Test,eicar.com-28926,HIGH,,,,Malwarebytes,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-AV-Test,2026-03-10T12:47:21.033230,,,,,,,,,
+VirusTotal,antivirus_detection,Zillya: EICAR.TestFile,eicar.com-28926,HIGH,,,,Zillya,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR.TestFile,2026-03-10T12:47:21.033240,,,,,,,,,
+VirusTotal,antivirus_detection,Sangfor: EICAR-Test-File (not a virus),eicar.com-28926,HIGH,,,,Sangfor,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File (not a virus),2026-03-10T12:47:21.033249,,,,,,,,,
+VirusTotal,antivirus_detection,K7AntiVirus: EICAR_Test_File,eicar.com-28926,HIGH,,,,K7AntiVirus,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR_Test_File,2026-03-10T12:47:21.033258,,,,,,,,,
+VirusTotal,antivirus_detection,K7GW: EICAR_Test_File,eicar.com-28926,HIGH,,,,K7GW,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR_Test_File,2026-03-10T12:47:21.033267,,,,,,,,,
+VirusTotal,antivirus_detection,huorong: TEST/AVEngTestFile!EICAR,eicar.com-28926,HIGH,,,,huorong,44d88612fea8a8f36de82e1278abb02f,malicious,TEST/AVEngTestFile!EICAR,2026-03-10T12:47:21.033276,,,,,,,,,
+VirusTotal,antivirus_detection,Baidu: Win32.Test.Eicar.a,eicar.com-28926,HIGH,,,,Baidu,44d88612fea8a8f36de82e1278abb02f,malicious,Win32.Test.Eicar.a,2026-03-10T12:47:21.033285,,,,,,,,,
+VirusTotal,antivirus_detection,VirIT: EICAR-Test-File,eicar.com-28926,HIGH,,,,VirIT,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File,2026-03-10T12:47:21.033294,,,,,,,,,
+VirusTotal,antivirus_detection,SymantecMobileInsight: ALG:EICAR Test String,eicar.com-28926,HIGH,,,,SymantecMobileInsight,44d88612fea8a8f36de82e1278abb02f,malicious,ALG:EICAR Test String,2026-03-10T12:47:21.033302,,,,,,,,,
+VirusTotal,antivirus_detection,Symantec: EICAR Test String,eicar.com-28926,HIGH,,,,Symantec,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR Test String,2026-03-10T12:47:21.033311,,,,,,,,,
+VirusTotal,antivirus_detection,Zoner: EICAR.Test.File-NoVirus.250,eicar.com-28926,HIGH,,,,Zoner,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR.Test.File-NoVirus.250,2026-03-10T12:47:21.033320,,,,,,,,,
+VirusTotal,antivirus_detection,TrendMicro-HouseCall: Eicar_test_file,eicar.com-28926,HIGH,,,,TrendMicro-HouseCall,44d88612fea8a8f36de82e1278abb02f,malicious,Eicar_test_file,2026-03-10T12:47:21.033329,,,,,,,,,
+VirusTotal,antivirus_detection,Cynet: Malicious (score: 99),eicar.com-28926,HIGH,,,,Cynet,44d88612fea8a8f36de82e1278abb02f,malicious,Malicious (score: 99),2026-03-10T12:47:21.033337,,,,,,,,,
+VirusTotal,antivirus_detection,Alibaba: Virus:Win32/EICAR.A,eicar.com-28926,HIGH,,,,Alibaba,44d88612fea8a8f36de82e1278abb02f,malicious,Virus:Win32/EICAR.A,2026-03-10T12:47:21.033346,,,,,,,,,
+VirusTotal,antivirus_detection,NANO-Antivirus: Marker.Dos.EICAR-Test-File.dyb,eicar.com-28926,HIGH,,,,NANO-Antivirus,44d88612fea8a8f36de82e1278abb02f,malicious,Marker.Dos.EICAR-Test-File.dyb,2026-03-10T12:47:21.033360,,,,,,,,,
+VirusTotal,antivirus_detection,ViRobot: EICAR-test,eicar.com-28926,HIGH,,,,ViRobot,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-test,2026-03-10T12:47:21.033369,,,,,,,,,
+VirusTotal,antivirus_detection,Rising: Virus.EICARTestFile!1.103DB (CLASSIC),eicar.com-28926,HIGH,,,,Rising,44d88612fea8a8f36de82e1278abb02f,malicious,Virus.EICARTestFile!1.103DB (CLASSIC),2026-03-10T12:47:21.033382,,,,,,,,,
+VirusTotal,antivirus_detection,F-Secure: EICAR_Test_File,eicar.com-28926,HIGH,,,,F-Secure,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR_Test_File,2026-03-10T12:47:21.033391,,,,,,,,,
+VirusTotal,antivirus_detection,VIPRE: EICAR-Test-File (not a virus),eicar.com-28926,HIGH,,,,VIPRE,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File (not a virus),2026-03-10T12:47:21.033401,,,,,,,,,
+VirusTotal,antivirus_detection,TrendMicro: Eicar_test_file,eicar.com-28926,HIGH,,,,TrendMicro,44d88612fea8a8f36de82e1278abb02f,malicious,Eicar_test_file,2026-03-10T12:47:21.033413,,,,,,,,,
+VirusTotal,antivirus_detection,McAfeeD: WPS!EICAR,eicar.com-28926,HIGH,,,,McAfeeD,44d88612fea8a8f36de82e1278abb02f,malicious,WPS!EICAR,2026-03-10T12:47:21.033423,,,,,,,,,
+VirusTotal,antivirus_detection,Sophos: EICAR-AV-Test,eicar.com-28926,HIGH,,,,Sophos,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-AV-Test,2026-03-10T12:47:21.033431,,,,,,,,,
+VirusTotal,antivirus_detection,Ikarus: EICAR-Test-File,eicar.com-28926,HIGH,,,,Ikarus,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File,2026-03-10T12:47:21.033440,,,,,,,,,
+VirusTotal,antivirus_detection,Avast-Mobile: Eicar,eicar.com-28926,HIGH,,,,Avast-Mobile,44d88612fea8a8f36de82e1278abb02f,malicious,Eicar,2026-03-10T12:47:21.033449,,,,,,,,,
+VirusTotal,antivirus_detection,Jiangmin: EICAR-Test-File,eicar.com-28926,HIGH,,,,Jiangmin,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File,2026-03-10T12:47:21.033458,,,,,,,,,
+VirusTotal,antivirus_detection,Webroot: W32.Eicar.Testvirus.Gen,eicar.com-28926,HIGH,,,,Webroot,44d88612fea8a8f36de82e1278abb02f,malicious,W32.Eicar.Testvirus.Gen,2026-03-10T12:47:21.033467,,,,,,,,,
+VirusTotal,antivirus_detection,Varist: EICAR_Test_File,eicar.com-28926,HIGH,,,,Varist,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR_Test_File,2026-03-10T12:47:21.033475,,,,,,,,,
+VirusTotal,antivirus_detection,Avira: Eicar-Test-Signature,eicar.com-28926,HIGH,,,,Avira,44d88612fea8a8f36de82e1278abb02f,malicious,Eicar-Test-Signature,2026-03-10T12:47:21.033484,,,,,,,,,
+VirusTotal,antivirus_detection,Antiy-AVL: TestFile/Win32.EICAR,eicar.com-28926,HIGH,,,,Antiy-AVL,44d88612fea8a8f36de82e1278abb02f,malicious,TestFile/Win32.EICAR,2026-03-10T12:47:21.033493,,,,,,,,,
+VirusTotal,antivirus_detection,Kingsoft: Test.eicar.aa,eicar.com-28926,HIGH,,,,Kingsoft,44d88612fea8a8f36de82e1278abb02f,malicious,Test.eicar.aa,2026-03-10T12:47:21.033511,,,,,,,,,
+VirusTotal,antivirus_detection,Gridinsoft: Trojan.U.EICAR_Test_File.dd,eicar.com-28926,HIGH,,,,Gridinsoft,44d88612fea8a8f36de82e1278abb02f,malicious,Trojan.U.EICAR_Test_File.dd,2026-03-10T12:47:21.033524,,,,,,,,,
+VirusTotal,antivirus_detection,Xcitium: Malware@#2975xfk8s2pq1,eicar.com-28926,HIGH,,,,Xcitium,44d88612fea8a8f36de82e1278abb02f,malicious,Malware@#2975xfk8s2pq1,2026-03-10T12:47:21.033533,,,,,,,,,
+VirusTotal,antivirus_detection,Microsoft: Virus:DOS/EICAR_Test_File,eicar.com-28926,HIGH,,,,Microsoft,44d88612fea8a8f36de82e1278abb02f,malicious,Virus:DOS/EICAR_Test_File,2026-03-10T12:47:21.033543,,,,,,,,,
+VirusTotal,antivirus_detection,SUPERAntiSpyware: NotAThreat.EICAR[TestFile],eicar.com-28926,HIGH,,,,SUPERAntiSpyware,44d88612fea8a8f36de82e1278abb02f,malicious,NotAThreat.EICAR[TestFile],2026-03-10T12:47:21.033551,,,,,,,,,
+VirusTotal,antivirus_detection,ZoneAlarm: EICAR-AV-Test,eicar.com-28926,HIGH,,,,ZoneAlarm,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-AV-Test,2026-03-10T12:47:21.033560,,,,,,,,,
+VirusTotal,antivirus_detection,GData: EICAR_TEST_FILE,eicar.com-28926,HIGH,,,,GData,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR_TEST_FILE,2026-03-10T12:47:21.033569,,,,,,,,,
+VirusTotal,antivirus_detection,Google: Detected,eicar.com-28926,HIGH,,,,Google,44d88612fea8a8f36de82e1278abb02f,malicious,Detected,2026-03-10T12:47:21.033577,,,,,,,,,
+VirusTotal,antivirus_detection,AhnLab-V3: Virus/EICAR_Test_File,eicar.com-28926,HIGH,,,,AhnLab-V3,44d88612fea8a8f36de82e1278abb02f,malicious,Virus/EICAR_Test_File,2026-03-10T12:47:21.033586,,,,,,,,,
+VirusTotal,antivirus_detection,VBA32: EICAR-Test-File,eicar.com-28926,HIGH,,,,VBA32,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File,2026-03-10T12:47:21.033595,,,,,,,,,
+VirusTotal,antivirus_detection,TACHYON: EICAR-Test-File,eicar.com-28926,HIGH,,,,TACHYON,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-Test-File,2026-03-10T12:47:21.033608,,,,,,,,,
+VirusTotal,antivirus_detection,APEX: EICAR Anti-Virus Test File,eicar.com-28926,HIGH,,,,APEX,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR Anti-Virus Test File,2026-03-10T12:47:21.033617,,,,,,,,,
+VirusTotal,antivirus_detection,Tencent: EICAR.TEST.NOT-A-VIRUS,eicar.com-28926,HIGH,,,,Tencent,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR.TEST.NOT-A-VIRUS,2026-03-10T12:47:21.033626,,,,,,,,,
+VirusTotal,antivirus_detection,Yandex: EICAR_test_file,eicar.com-28926,HIGH,,,,Yandex,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR_test_file,2026-03-10T12:47:21.033634,,,,,,,,,
+VirusTotal,antivirus_detection,TrellixENS: EICAR test file,eicar.com-28926,HIGH,,,,TrellixENS,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR test file,2026-03-10T12:47:21.033643,,,,,,,,,
+VirusTotal,antivirus_detection,SentinelOne: Static AI - Malicious COM,eicar.com-28926,HIGH,,,,SentinelOne,44d88612fea8a8f36de82e1278abb02f,malicious,Static AI - Malicious COM,2026-03-10T12:47:21.033656,,,,,,,,,
+VirusTotal,antivirus_detection,MaxSecure: VIRUS.EICAR.TEST,eicar.com-28926,HIGH,,,,MaxSecure,44d88612fea8a8f36de82e1278abb02f,malicious,VIRUS.EICAR.TEST,2026-03-10T12:47:21.033665,,,,,,,,,
+VirusTotal,antivirus_detection,Fortinet: EICAR_TEST_FILE,eicar.com-28926,HIGH,,,,Fortinet,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR_TEST_FILE,2026-03-10T12:47:21.033678,,,,,,,,,
+VirusTotal,antivirus_detection,Panda: EICAR-AV-TEST-FILE,eicar.com-28926,HIGH,,,,Panda,44d88612fea8a8f36de82e1278abb02f,malicious,EICAR-AV-TEST-FILE,2026-03-10T12:47:21.033687,,,,,,,,,
+VirusTotal,antivirus_detection,alibabacloud: Engtest:Multi/Eicar,eicar.com-28926,HIGH,,,,alibabacloud,44d88612fea8a8f36de82e1278abb02f,malicious,Engtest:Multi/Eicar,2026-03-10T12:47:21.033696,,,,,,,,,
+DNS Logs,suspicious_domain,kjasdfkjhwef.com,,MEDIUM,,,,,,,,2023-10-27T10:01:00Z,192.168.1.20,NXDOMAIN,,,,,,,
+DNS Logs,suspicious_domain,oqwhefuiqw.com,,MEDIUM,,,,,,,,2023-10-27T10:02:00Z,192.168.1.20,NXDOMAIN,,,,,,,
+DNS Logs,suspicious_domain,zxcvbnmlkjh.com,,MEDIUM,,,,,,,,2023-10-27T10:03:00Z,192.168.1.20,NXDOMAIN,,,,,,,
+DNS Logs,suspicious_domain,c2.evil-domain.tk,,HIGH,,,,,,,,2023-10-27T10:00:10Z,192.168.1.99,NOERROR,,,,,,,
+DNS Logs,suspicious_domain,c2.evil-domain.tk,,HIGH,,,,,,,,2023-10-27T10:05:10Z,192.168.1.99,NOERROR,,,,,,,
+DNS Logs,suspicious_domain,c2.evil-domain.tk,,HIGH,,,,,,,,2023-10-27T10:10:10Z,192.168.1.99,NOERROR,,,,,,,
+DNS Logs,suspicious_domain,c2.evil-domain.tk,,HIGH,,,,,,,,2023-10-27T10:15:10Z,192.168.1.99,NOERROR,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-21T08:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-21T09:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-21T10:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-21T11:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-21T12:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-21T13:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-21T14:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-21T15:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-21T16:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-21T17:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-21T18:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-21T19:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-21T20:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-21T21:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-21T22:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-21T23:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-22T00:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-22T01:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-22T02:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-22T03:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-22T04:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-22T05:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-22T06:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-22T07:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-22T08:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-22T09:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-22T10:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-22T11:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-22T12:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-22T13:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-22T14:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-22T15:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-22T16:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-22T17:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-22T18:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-22T19:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-22T20:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-22T21:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-22T22:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-22T23:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-23T00:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-23T01:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-23T02:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-23T03:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-23T04:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-23T05:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-23T06:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-23T07:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-23T08:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-23T09:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-23T10:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-23T11:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-23T12:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-23T13:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-23T14:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-23T15:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-23T16:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-23T17:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-23T18:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-23T19:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-23T20:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-23T21:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-23T22:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-23T23:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-24T00:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-24T01:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-24T02:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-24T03:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-24T04:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-24T05:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-24T06:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-24T07:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-24T08:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-24T09:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-24T10:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-24T11:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-24T12:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-24T13:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-24T14:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-24T15:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-24T16:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-24T17:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-24T18:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-24T19:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-24T20:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-24T21:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-24T22:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-24T23:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-25T00:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-25T01:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-25T02:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Remote Windows Win32k elevation of privilege attempt,,MEDIUM,,,,,,,,2023-08-25T03:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Java JRE to Oracle WebLogic RCE,,MEDIUM,,,,,,,,2023-08-25T04:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS DCERPC NCACN-IP-TCP interfaces BO,,MEDIUM,,,,,,,,2023-08-25T05:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC User-Agent known malicious connecting IP,,HIGH,,,,,,,,2023-08-25T06:00:00,,,,,,,,,
+Suricata IDS,compromise_indicator,INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306,,MEDIUM,,,,,,,,2023-08-25T07:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Multiple IIS 6.0 attempt,,MEDIUM,,,,,,,,2023-08-25T08:00:00,,,,,,,,,
+Suricata IDS,exploit_attempt,EXPLOIT Oracle 9i TNS Listener BO,,MEDIUM,,,,,,,,2023-08-25T09:00:00,,,,,,,,,
+Suricata IDS,network_scan,NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO,,MEDIUM,,,,,,,,2023-08-25T10:00:00,,,,,,,,,
+Suricata IDS,command_and_control,MALWARE-CNC Win.Trojan.Jadtre variant outbound connection,,HIGH,,,,,,,,2023-08-25T11:00:00,,,,,,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we3436srv.waynecorpinc.local,we3436srv$,,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we1159srv.waynecorpinc.local,we1159srv$,,,,,
+Windows Events,windows_security,Event 4624: Successful Logon,,MEDIUM,,,,,,,,2016-august-28,,,we9028srv.waynecorpinc.local,"['-', 'we9028srv$']",,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we5878srv.waynecorpinc.local,"['we5878srv$', 'we5878srv$']",,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we3997srv.waynecorpinc.local,"['we3997srv$', 'we3997srv$']",,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we9269srv.waynecorpinc.local,"['we9269srv$', 'we9269srv$']",,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we7127srv.waynecorpinc.local,we7127srv$,,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we5689srv.waynecorpinc.local,"['we5689srv$', '-']",,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we1662srv.waynecorpinc.local,"['we1662srv$', 'we1662srv$']",,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we3652srv.waynecorpinc.local,we3652srv$,,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we5156srv.waynecorpinc.local,we5156srv$,,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we7006srv.waynecorpinc.local,we7006srv$,,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we8229srv.waynecorpinc.local,"['we8229srv$', '-']",,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we8592srv.waynecorpinc.local,"['we8592srv$', '-']",,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we6406srv.waynecorpinc.local,we6406srv$,,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we9390srv.waynecorpinc.local,"['we9390srv$', 'we9390srv$']",,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we9054srv.waynecorpinc.local,we9054srv$,,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we9390srv.waynecorpinc.local,"['we9390srv$', 'we9390srv$']",,,,,
+Windows Events,windows_security,Event 4624: Successful Logon,,MEDIUM,,,,,,,,2016-august-28,,,we4664srv.waynecorpinc.local,"['-', 'we4664srv$']",,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we2419srv.waynecorpinc.local,we2419srv$,,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we6908srv.waynecorpinc.local,we6908srv$,,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we2813srv.waynecorpinc.local,we2813srv$,,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we8018srv.waynecorpinc.local,"['we8018srv$', 'we8018srv$']",,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we7075srv.waynecorpinc.local,"['we7075srv$', 'we7075srv$']",,,,,
+Windows Events,windows_security,Event 4656: Object Access,,MEDIUM,,,,,,,,2016-august-28,,,we8460srv.waynecorpinc.local,Lara.Culbreth,,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we4837srv.waynecorpinc.local,"['we4837srv$', 'we4837srv$']",,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we4404srv.waynecorpinc.local,we4404srv$,,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we8153srv.waynecorpinc.local,we8153srv$,,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we6867srv.waynecorpinc.local,we6867srv$,,,,,
+Windows Events,windows_security,Event 4689: Process Exit,,MEDIUM,,,,,,,,2016-august-28,,,we5364srv.waynecorpinc.local,we5364srv$,,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we1159srv.waynecorpinc.local,"['we1159srv$', 'we1159srv$']",,,,,
+Windows Events,windows_security,Event 4688: Process Creation,,HIGH,,,,,,,,2016-august-28,,,we3134srv.waynecorpinc.local,we3134srv$,,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we8670srv.waynecorpinc.local,"['we8670srv$', 'we8670srv$']",,,,,
+Windows Events,windows_security,Event 4703: Token Right Adjusted,,MEDIUM,,,,,,,,2016-august-28,,,we7887srv.waynecorpinc.local,"['we7887srv$', 'we7887srv$']",,,,,
+Windows Events,windows_security,Event 4624: Successful Logon,,MEDIUM,,,,,,,,2016-august-28,,,we8382srv.waynecorpinc.local,"['-', 'we8382srv$']",,,,,
+Vulners API,vulnerability,SNYK:CONAN-OPENSSL-15123718,,HIGH,,,,,,,,,,,,,openssl,9.8,Stack-based Buffer Overflow,2026-01-27T16:49:21,"## Overview
+
+Affected versions of this package are vulnerable to Stack-based Buffer Overflow when parsing a CMS `AuthEnvelopedData` message. An attacker can trigger a crash by supplying AEAD ciphers s"
+Vulners API,vulnerability,SNYK:CONAN-OPENSSL-15123587,,MEDIUM,,,,,,,,,,,,,openssl,7.5,Stack-based Buffer Overflow,2026-01-27T16:49:31,"## Overview
+
+Affected versions of this package are vulnerable to Stack-based Buffer Overflow or null pointer dereference in `pkcs12/p12_mutl.c‎`. If a user can be convinced to process a malicious PKCS"
+Vulners API,vulnerability,SNYK:CONAN-OPENSSL-15124519,,MEDIUM,,,,,,,,,,,,,openssl,8.1,Out-of-bounds Write,2026-01-27T16:49:19,"## Overview
+
+Affected versions of this package are vulnerable to Out-of-bounds Write in the `OPENSSL_uni2utf8()` function. If a user can be convinced to process a malicious PKCS#12 file, the attacker "
+Vulners API,vulnerability,SNYK:RUBY-OPENSSL-6036190,,MEDIUM,,,,,,,,,,,,,openssl,7.5,Missing Cryptographic Step,2023-10-24T15:00:00,"## Overview
+[openssl](https://rubygems.org/gems/openssl) is a package that wraps the OpenSSL library.
+
+Affected versions of this package are vulnerable to Missing Cryptographic Step when the `EVP_Encr"
+Vulners API,vulnerability,NMAP:HTTP-APACHE-NEGOTIATION.NSE,,HIGH,,,,,,,,,,,,,apache,10.0,http-apache-negotiation NSE Script,2011-12-08T20:50:12,"Checks if the target http server has mod_negotiation enabled. This feature can be leveraged to find hidden resources and spider a web site using fewer requests. 
+
+The script works by sending requests "
+Vulners API,vulnerability,OSV:BIT-APACHE-2025-58098,,MEDIUM,,,,,,,,,,,,,apache,8.3,BIT-APACHE-2025-58098 Apache HTTP Server: Server Side Includes adds query string to #exec cmd=...,2025-12-09T11:38:15,"Apache HTTP Server 2.4.65 and earlier with Server Side Includes (SSI) enabled and mod_cgid (but not mod_cgi) passes the shell-escaped query string to #exec cmd=""..."" directives.
+
+This issue affects Ap"
+Vulners API,vulnerability,OSV:BIT-APACHE-2025-49630,,MEDIUM,,,,,,,,,,,,,apache,7.5,BIT-APACHE-2025-49630 Apache HTTP Server: mod_proxy_http2 denial of service,2025-07-16T07:56:28,"In certain proxy configurations, a denial of service attack against Apache HTTP Server versions 2.4.26 through to 2.4.63 can be triggered by untrusted clients causing an assertion in mod_proxy_http2.
+"
+Vulners API,vulnerability,OSV:BIT-APACHE-2024-40898,,HIGH,,,,,,,,,,,,,apache,9.1,BIT-APACHE-2024-40898 Apache HTTP Server: SSRF with mod_rewrite in server/vhost context on Windows,2024-07-23T07:16:32,"SSRF in Apache HTTP Server on Windows with mod_rewrite in server/vhost context, allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests.
+
+Users are recommended to "
+Vulners API,vulnerability,OSV:BIT-APACHE-2024-38472,,MEDIUM,,,,,,,,,,,,,apache,7.5,BIT-APACHE-2024-38472,2024-07-03T07:17:47,SSRF in Apache HTTP Server on Windows allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests or content Users are recommended to upgrade to version 2.4.60 which f
+Vulners API,vulnerability,OSV:BIT-APACHE-2024-38473,,MEDIUM,,,,,,,,,,,,,apache,8.1,BIT-APACHE-2024-38473 Apache HTTP Server proxy encoding problem,2024-07-03T07:17:33,"Encoding problem in mod_proxy in Apache HTTP Server 2.4.59 and earlier allows request URLs with incorrect encoding to be sent to backend services, potentially bypassing authentication via crafted requ"
+Vulners API,vulnerability,OSV:BIT-APACHE-2024-38476,,HIGH,,,,,,,,,,,,,apache,9.8,BIT-APACHE-2024-38476 Apache HTTP Server may use exploitable/malicious backend application output to,2024-07-03T07:16:44,"Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclosure, SSRF or local script execution via backend applications whose response headers are malicious or"
+Vulners API,vulnerability,NGINX,,MEDIUM,,,,,,,,,,,,,nginx,7.5,Immunity Canvas: NGINX,2009-09-15T22:30:00,"**Name**|  nginx  
+---|---  
+**CVE**|  CVE-2009-2629  
+**Exploit Pack**|  [CANVAS](<http://http://www.immunityinc.com/products-canvas.shtml>)  
+**Description**| Jinx  
+**Notes**| CVE Name: CVE-2009-26"
+Vulners API,vulnerability,OSV:BIT-NGINX-2021-23017,,MEDIUM,,,,,,,,,,,,,nginx,7.7,BIT-NGINX-2021-23017,2024-03-06T10:59:30,"A security issue in nginx resolver was identified, which might allow an attacker who is able to forge UDP packets from the DNS server to cause 1-byte memory overwrite, resulting in worker process cras"
+Vulners API,vulnerability,NGINX-2021-000300.NASL,,MEDIUM,,,,,,,,,,,,,nginx,7.7,nginx 0.6.x < 1.20.1 1-Byte Memory Overwrite RCE,2021-06-03T00:00:00,"According to its Server response header, the installed version of nginx is 0.6.18 prior to 1.20.1. It is, therefore,
+affected by a remote code execution vulnerability. A security issue in nginx resolv"
+Vulners API,vulnerability,OSV:BIT-NGINX-2024-24990,,MEDIUM,,,,,,,,,,,,,nginx,7.5,BIT-NGINX-2024-24990 NGINX HTTP/3 QUIC vulnerability,2024-06-04T09:50:17,"When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed requests can cause NGINX worker processes to terminate.
+
+Note: The HTTP/3 QUIC module is not enabled by default a"
+Vulners API,vulnerability,ALAS-2015-588,,HIGH,,,,,,,,,,,,,windows,9.8,"Medium: golang, docker",2015-08-24T00:00:00,"**Issue Overview:**  
+
+
+As discussed upstream -- http://seclists.org/oss-sec/2015/q3/294 and http://seclists.org/oss-sec/2015/q3/237 -- the Go project received notification of an HTTP request smugglin"
+Vulners API,vulnerability,PRION:CVE-2008-4037,,HIGH,,,,,,,,,,,,,windows,9.3,Design/Logic Flaw,2008-11-12T23:30:00,"Microsoft Windows 2000 Gold through SP4, XP Gold through SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, and Server 2008 allows remote SMB servers to execute arbitrary code on a client machine by re"
+Vulners API,vulnerability,MSF:EXPLOIT-LINUX-HTTP-OLLAMA_RCE_CVE_2024_37032-,,MEDIUM,,,,,,,,,,,,,linux,8.8,Ollama Model Registry Path Traversal RCE,2026-02-25T19:00:16,"Ollama before 0.1.34 is vulnerable to a path traversal attack via the
+          model pull mechanism (CVE-2024-37032). When pulling a model, the digest
+          field in OCI manifests is not validate"
+Vulners API,vulnerability,MSF:EXPLOIT-LINUX-HTTP-BEYONDTRUST_PRA_RS_COMMAND_INJECTION-,,HIGH,,,,,,,,,,,,,linux,9.9,BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) unauthenticated Remote Code Execu,2026-02-25T19:00:15,"This exploit achieves unauthenticated remote code execution against BeyondTrust Privileged Remote
+          Access (PRA) and Remote Support (RS). It leverages three different vulnerabilities depending"
+Vulners API,vulnerability,MSF:EXPLOIT-LINUX-HTTP-GRANDSTREAM_GXP1600_UNAUTH_RCE-,,HIGH,,,,,,,,,,,,,linux,9.8,GrandStream GXP1600 Unauthenticated Remote Code Execution,2026-02-24T18:57:48,"An unauthenticated stack-based buffer overflow vulnerability exists in the HTTP API endpoint
+          /cgi-bin/api.values.get. A remote attacker can leverage this vulnerability to achieve unauthentic"
+Vulners API,vulnerability,MSF:EXPLOIT-LINUX-HTTP-MOTIONEYE_AUTH_RCE_CVE_2025_60787-,,MEDIUM,,,,,,,,,,,,,linux,7.2,Remote Code Execution Vulnerability in MotionEye Frontend (CVE-2025-60787),2025-10-10T18:57:15,"This module exploits a template injection vulnerability in the MotionEye Frontend.
+
+          MotionEye Frontend versions 0.43.1b4 and prior are vulnerable to OS Command Injection in configuration par"
+Vulners API,vulnerability,GLSA-202101-05,,HIGH,,,,,,,,,,,,,chrome,9.6,"Chromium, Google Chrome: Multiple vulnerabilities",2021-01-10T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. 
+
+Google Chrome is one fast, simple, and secure "
+Vulners API,vulnerability,GLSA-202012-05,,HIGH,,,,,,,,,,,,,chrome,9.6,"Chromium, Google Chrome: Multiple vulnerabilities",2020-12-07T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. 
+
+Google Chrome is one fast, simple, and secure "
+Vulners API,vulnerability,GLSA-202006-02,,HIGH,,,,,,,,,,,,,chrome,9.6,"Chromium, Google Chrome: Multiple vulnerabilities",2020-06-10T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. 
+
+Google Chrome is one fast, simple, and secure "
+Vulners API,vulnerability,GLSA-201804-22,,MEDIUM,,,,,,,,,,,,,chrome,8.8,"Chromium, Google Chrome: Multiple vulnerabilities",2018-04-24T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. 
+
+Google Chrome is one fast, simple, and secure "
+Vulners API,vulnerability,GLSA-201711-02,,HIGH,,,,,,,,,,,,,chrome,9.8,"Chromium, Google Chrome: Multiple vulnerabilities",2017-11-10T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. 
+
+Google Chrome is one fast, simple, and secure "
+Vulners API,vulnerability,GLSA-202402-23,,HIGH,,,,,,,,,,,,,chrome,9.8,"Chromium, Google Chrome, Microsoft Edge: Multiple Vulnerabilities",2024-02-19T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. Google Chrome is one fast, simple, and secure br"
+Vulners API,vulnerability,GLSA-202401-34,,HIGH,,,,,,,,,,,,,chrome,9.6,"Chromium, Google Chrome, Microsoft Edge: Multiple Vulnerabilities",2024-01-31T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. Google Chrome is one fast, simple, and secure br"
+Vulners API,vulnerability,GLSA-202107-49,,MEDIUM,,,,,,,,,,,,,chrome,8.8,"Chromium, Google Chrome: Multiple vulnerabilities",2021-07-22T00:00:00,"### Background
+
+Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. 
+
+Google Chrome is one fast, simple, and secure "
