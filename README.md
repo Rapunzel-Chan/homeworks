@@ -364,6 +364,7 @@ python virustotal_check.py
 python auto_threat_hunter.py
 ```
 ## Пример правильного ответа приложения:
+```
 ============================================================
 🔍 АВТОМАТИЗИРОВАННЫЙ МОНИТОРИНГ УГРОЗ
 ============================================================
@@ -405,6 +406,7 @@ python auto_threat_hunter.py
 - threat_report/threat_severity_pie.png - круговая диаграмма
 
 - threat_report/cvss_distribution.png - распределение CVSS
+```
 
 ## Сокрытие чувствительных данных
 
